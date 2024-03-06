@@ -42,7 +42,7 @@ The price is the target of this challenge, as our goal is to create a machine-le
 
 Correlation between variables?
 To identify the correlation, we used this heatmap:
-![image](Report/heatmap_apartment.png)
+![image](Report/Correlation_Heatmap.png)
 
 ![image](Report/heatmap_house.png)
 
