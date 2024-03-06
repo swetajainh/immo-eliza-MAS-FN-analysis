@@ -1,5 +1,6 @@
 
 # immo-eliza-MAS-FN-analysis
+![skyview]("C:\Users\fabie\OneDrive\Documenten\BeCodeGhent\Projects\Analysis.png")
 
 ## Description
 
@@ -18,6 +19,7 @@ https://github.com/realpython/rptree
 In your data/ folder
  - Have a raw/ folder with the original dataset
  - Have a cleaned/ folder with the cleaned dataset
+ 
 Make a clean.py script for any additional cleaning
 Add your notebooks in an analysis/ folder
 Put your finalized presentation in .pdf format in a reports/ folder
