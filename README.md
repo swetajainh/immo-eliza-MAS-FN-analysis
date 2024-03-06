@@ -33,7 +33,7 @@ The cleaning phase is very important: without a good cleaning, our analysis coul
 ## Data analysis 
 This is where the fun starts! 🥳
 
-Three people know more than one.
+Five people know more than one.
 
 To get the most out of our data, and to allow each of us to get experience manipulating Pandas and Seaborn, we decided to work separately. One group worked on the house data and one group on the apartment data. Later we reviewed our work and merged the results.
 
