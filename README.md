@@ -1,7 +1,7 @@
 
 # Immo-Eliza-MAS-FN-Analysis
 
-![image](Report/image.png)
+![image](Report/price_living_area_filtered.svg)
 
 ## Description
 The Immo Eliza Data Analysis project focuses on analyzing a dataset of properties including houses and apartmments for sale from the website Immoweb. It involves cleaning the dataset, performing exploratory data analysis, and creating visualizations to gain insights into the properties and their characteristics.## 
