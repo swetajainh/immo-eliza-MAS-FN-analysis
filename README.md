@@ -4,7 +4,7 @@
 ![image](Report/price_living_area_filtered.svg)
 
 ## Description
-The Immo Eliza Data Analysis project focuses on analyzing a dataset of properties including houses and apartmments for sale from the website Immoweb. It involves cleaning the dataset, performing exploratory data analysis, and creating visualizations to gain insights into the properties and their characteristics.## 
+The Immo Eliza Data Analysis project focuses on analyzing a dataset of properties including houses and apartments for sale from the website Immoweb. It involves cleaning the dataset, performing exploratory data analysis, and creating visualizations to gain insights into the properties and their characteristics.## 
 
 ## Installation
 To run the project, you need to install the required libraries. You can click on the badge links to learn more about each library and its specific version used in this project. You can install them manually using pip install <library name> or just running pip install -r requirements.txt.
@@ -44,7 +44,7 @@ Correlation between variables?
 To identify the correlation, we used this heatmap:
 ![image](Report/Correlation_Heatmap.png)
 
-![image](Report/heatmap_house.png)
+![image](Report/price_living_area_filtered.svg)
 
 
 *Observations*
