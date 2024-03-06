@@ -1,6 +1,7 @@
 
 # immo-eliza-MAS-FN-analysis
-![skyview]("C:\Users\fabie\OneDrive\Documenten\BeCodeGhent\Projects\Analysis.png")
+
+![skyview]("C:\Users\fabie\OneDrive\Documenten\BeCodeGhent\Projects\immo-eliza-MAS-FN-analysis\TeamWork\Analysis.png")
 
 ## Description
 
