@@ -1,91 +1,59 @@
 
-# immo-eliza-MAS-FN-analysis
+# Immo-Eliza-MAS-FN-Analysis
 
-![skyview]("C:\Users\fabie\OneDrive\Documenten\BeCodeGhent\Projects\immo-eliza-MAS-FN-analysis\TeamWork\Analysis.png")
+![image](Report/image.png)
 
 ## Description
-
-Pick out the properties that are the most valuable to the real estate company Immo Eliza and their clients.
-Create a machine learning model to predict the prices of proporties across Belgium.
-
-Make a preliminary analysis based on the dataset you previously scraped.
-We have to answer two main questions:
-- What are currently the most interesting insights about the Belgian real estate market?
-- What variables are the most important when determining the price of a property?
-
-## Repo Structure
-
-https://github.com/realpython/rptree
-
-In your data/ folder
- - Have a raw/ folder with the original dataset
- - Have a cleaned/ folder with the cleaned dataset
- 
-Make a clean.py script for any additional cleaning
-Add your notebooks in an analysis/ folder
-Put your finalized presentation in .pdf format in a reports/ folder
+The Immo Eliza Data Analysis project focuses on analyzing a dataset of properties including houses and apartmments for sale from the website Immoweb. It involves cleaning the dataset, performing exploratory data analysis, and creating visualizations to gain insights into the properties and their characteristics.## 
 
 ## Installation
+To run the project, you need to install the required libraries. You can click on the badge links to learn more about each library and its specific version used in this project. You can install them manually using pip install <library name> or just running pip install -r requirements.txt.
 
-### Step 1: Data Cleaning
+. Install the required libraries:
 
-Clean the collected data
+   - [![python version](https://img.shields.io/badge/python-3.x-blue)](https://python.org)
+   - [![Pandas Version](https://img.shields.io/badge/pandas-2.x-green)](https://pandas.pydata.org/)
+   - [![NumPy Version](https://img.shields.io/badge/numpy-1.x-orange)](https://numpy.org/)
+   - [![Matplotlib Version](https://img.shields.io/badge/Matplotlib-3.x-red)](https://matplotlib.org/)
+   - [![Seaborn Version](https://img.shields.io/badge/seaborn-0.x-yellow)](https://seaborn.pydata.org/)
+   - [![sklearn Version](https://img.shields.io/badge/sklearn-0.x-grey)](https://scikit-learn.org/stable/)
 
-<add some code>
+## The dataset
+It includes about 39000 properties scrapped from ImmoWeb: [Immoweb](https://www.immoweb.be) 
 
-### Step 2: Data Analysis
+## Data Cleaning 
+The cleaning phase is very important: without a good cleaning, our analysis could be badly influenced by outliers. 
 
-Analyse the cleaned data
+-	Removing duplicates and empty rows
+-	Removing the rows without price as a dependent variable
+-	Exploring columns with some functions, and replacing or imputing missing values if needed. 
+-	Removing the outliers (error, incorrect or absurd)
+-	Removing some useless columns due to their high rate of *None* value. 
 
-Answer following questions (with a vizualization if appropriate):
+## Data analysis 
+This is where the fun starts! 🥳
 
-- How many observations and features do you have?
-- What is the proportion of missing values per column?
-- Which variables would you delete and why?
-- What variables are most subject to outliers?
-- How many qualitative and quantitative variables are there? How would you transform the qualitative values into numerical values?
-- What is the correlation between the variables and the price? Why do you think some variables are more correlated than others?
-- How are the variables themselves correlated to each other? Can you find groups of variables that are correlated together?
-- How are the number of properties distributed according to their surface?
-- Which five variables do you consider the most important and why?
-- What are the least/most expensive municipalities in Belgium/Wallonia/Flanders? (in terms of price per m², average price, and median price)
+Three people know more than one.
 
+To get the most out of our data, and to allow each of us to get experience manipulating Pandas and Seaborn, we decided to work separately. One group worked on the house data and one group on the apartment data. Later we reviewed our work and merged the results.
 
-### Step 3: Presentation
-Communicate our analysis using simple words, clear graphs, and ideally also deliver a few recommendations.
+Our target: The Price.
+The price is the target of this challenge, as our goal is to create a machine-learning model to predict prices on Belgium's sales.
 
-Presentation plots should have:
+Correlation between variables?
+To identify the correlation, we used this heatmap:
+![image](Report/heatmap_apartment.png)
 
-- A clear title
-- A legend (if applicable)
-- Add axis labels (in understandable language, no variable names)
-- Add axis units
-- Have comparable scales
-- Have no overlapping text
-- A main takeaway
-- Remove all clutter that doesn't contribute to the message
-- Smart use of colors
-
-Which insights did we found?
-
-Which recommendations can we make?
-    
-## Functions
-
-Use tools such as matplotlib, seaborn, plotly, or [insert whatever visualization tool you find useful]...
-
-## Visuals
-
-Posting your code is good, but putting a little preview in the form of a screenshot (or even just your application logo) is a small touch that goes a long way.
-
-Adding a link to an online demo is even more stylish!
+![image](Report/heatmap_house.png)
 
 
+*Observations*
+The Price is mainly correlated with the Number of rooms, living area and energy consumption. 
+The Number of rooms and living areas seem mainly correlated with each other.
 
 ## Contributors
 
-Team members are Afaf, Miguel Bueno, Nasrin, Shweta Jain, Fabienne and each one of them contributed equally.
+Team members are Afaf, Miguel Bueno, Nasrin, Shweta Jain, and Fabienne.
 
 ## Timeline
-
 This analysis took form in five days.
