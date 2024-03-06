@@ -21,6 +21,23 @@ To run the project, you need to install the required libraries. You can click on
 ## The dataset
 It includes about 39000 properties scrapped from ImmoWeb: [Immoweb](https://www.immoweb.be) 
 
+## Usage
+```python
+# def analyze_column(df_clean, column_name):
+    column = df_clean[column_name]
+    num_nan = column.isnull().sum()
+    num_unique = column.nunique()
+    unique_values = column.unique()
+    percentage_nan = (num_nan / len(column)) * 100
+    percentage_unique = (num_unique / len(column)) * 100
+    print(f"Analysis for column '{column_name}':")
+    print(f"Number of NaN values: {num_nan}")
+    print(f"Number of unique values: {num_unique}")
+    print(f"Percentage of NaN values: {percentage_nan:.2f}%")
+    print(f"Percentage of unique values: {percentage_unique:.2f}%")
+    print(f"Unique values: {unique_values}")
+
+
 ## Data Cleaning 
 The cleaning phase is very important: without a good cleaning, our analysis could be badly influenced by outliers. 
 
