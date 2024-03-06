@@ -1,8 +1,7 @@
 
 # Immo-Eliza-MAS-FN-Analysis
 
-![image](Report/Map.pdf)
-![Uploading image.png…]()
+![image](Report/Province_locality_histogram.png)
 
 
 ## Description
