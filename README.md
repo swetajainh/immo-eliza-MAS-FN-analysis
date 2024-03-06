@@ -36,7 +36,7 @@ It includes about 39000 properties scrapped from ImmoWeb: [Immoweb](https://www.
     print(f"Percentage of NaN values: {percentage_nan:.2f}%")
     print(f"Percentage of unique values: {percentage_unique:.2f}%")
     print(f"Unique values: {unique_values}")
-
+'''
 
 ## Data Cleaning 
 The cleaning phase is very important: without a good cleaning, our analysis could be badly influenced by outliers. 
