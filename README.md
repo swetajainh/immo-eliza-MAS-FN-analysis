@@ -48,8 +48,8 @@ To identify the correlation, we used this heatmap:
 
 
 #### Observations
-The Price is mainly correlated with the Number of rooms, living area, energy consumption and the building state. 
-The Number of rooms and living areas seem mainly correlated with each other.
+- The Price is mainly correlated with the Number of rooms, living area, energy consumption and the building state. 
+- The Number of rooms and living areas seems mainly correlated with each other.
 
 ## Contributors
 
